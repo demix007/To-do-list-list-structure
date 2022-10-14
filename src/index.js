@@ -10,4 +10,3 @@ page.append(title);
 const img = new Image();
 img.src = reload;
 page.appendChild(img);
-
