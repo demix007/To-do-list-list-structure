@@ -1,17 +1,17 @@
 const presumedTask = [
-    {
-      description: 'Wash the dishes',
-      completed: false,
-      index: 0,
-    },
-    {
-      description: 'Complete To Do List project',
-      completed: false,
-      index: 1,
-    },
-  ];
-  
-  /* eslint-disable */
+  {
+    description: 'Wash the dishes',
+    completed: false,
+    index: 0,
+  },
+  {
+    description: 'Complete To Do List project',
+    completed: false,
+    index: 1,
+  },
+];
+
+/* eslint-disable */
   const sortIndex = presumedTask.sort((a,b) => a.index > b.index ? [a, b] : [b, a]);
   
   const pop = (plan) => {
